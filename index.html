@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h2>Score Calculator</h2>
+        <!-- Input fields for each subject score -->
+        <input type="number" id="subject1" placeholder="Score for Subject 1" min="0" max="100" required>
+        <input type="number" id="subject2" placeholder="Score for Subject 2" min="0" max="100" required>
+        <input type="number" id="subject3" placeholder="Score for Subject 3" min="0" max="100" required>
+        <input type="number" id="subject4" placeholder="Score for Subject 4" min="0" max="100" required>
+        <input type="number" id="subject5" placeholder="Score for Subject 5" min="0" max="100" required>
+        <!-- Button to calculate result -->
+        <button class="btn" onclick="calculateResult()">Calculate Percentage</button>
+        <!-- Display area for the result -->
+        <div id="result" class="result"></div>
+    </div>
+<script src="node.js"></script>
+</body>
+</html>
